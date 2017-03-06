@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="githubViewer">
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script data-require="angular-route@1.2.14" data-semver="1.2.14" src="https://code.angularjs.org/1.2.14/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script> <!--app.js must come first -->
+    <script src="MainController.js"></script>
+    <script src="UserController.js"></script>
+    <script src="RepoController.js"></script>
+    <script src="github.js"></script>
+  </head>
+
+<body>
+  <h1> GitHub Viewer</h1>
+  <div ng-view> </div> <!--Here is where the routing engine will display the different templates -->
+</body>
+
+
+  
+
+</html>
