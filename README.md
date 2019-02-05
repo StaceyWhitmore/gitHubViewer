@@ -1,3 +1,4 @@
 Github viewer
 =============
-a viewer for [github Profiles](http://srwhitmore.com/angularJS/) written in angularJS
+A viewer for [github Profiles](http://srwhitmore.com/angularJS/) written in angularJS.
+* [http://srwhitmore.com/angularJS](http://srwhitmore.com/angularJS)
