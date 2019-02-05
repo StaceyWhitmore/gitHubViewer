@@ -1,3 +1,0 @@
-git add .
-commit
-push
